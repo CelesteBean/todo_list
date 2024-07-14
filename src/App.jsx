@@ -1,11 +1,12 @@
-import React from 'react';
-import TodoList from './Components/TodoList';
+import React from "react";
+import TodoList from "./Components/TodoList";
 
 function App() {
+  console.log("I'm alive in App.jsx");
   return (
-   <>
-   <TodoList/>
-   </>
+    <>
+      <TodoList />
+    </>
   );
 }
 
